@@ -1,0 +1,47 @@
+package com.company;
+
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class even_odd {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter an operator: ");
+        char op= in.next().trim().charAt(0);
+
+        System.out.println("num1");
+        int num1= in.nextInt();
+
+        System.out.println("num2");
+        int num2= in.nextInt();
+
+
+        if( op=='+') {
+            System.out.println(num1+num2);
+        }
+
+        if( op=='-') {
+            System.out.println(num1-num2);
+//            break ;
+        }
+
+        if( op=='*') {
+            System.out.println(num1*num2);
+//            break ;
+        }
+        else{
+            System.out.println("Wrong Operator");
+//            break;
+        }
+
+
+
+
+
+
+
+
+
+    }
+}
